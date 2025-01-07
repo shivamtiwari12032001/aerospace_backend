@@ -12,7 +12,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.permissions import AllowAny
 import jwt
 from datetime import datetime, timedelta
-from decouple import config
+
 
 # Create your views here.
 

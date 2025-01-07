@@ -1,6 +1,6 @@
-from decouple import config
+
 from cryptography.fernet import Fernet
-ENCRYPTION_KEY = config('ENCRYPTION_KEY', default='Z3JpcHBoaFZObm9BQjZTd2ZIV1NFQ1A3UkE5VWVWc3U=')
+ENCRYPTION_KEY = 'Z3JpcHBoaFZObm9BQjZTd2ZIV1NFQ1A3UkE5VWVWc3U='
 from django.conf import settings
 
 cipher = Fernet(ENCRYPTION_KEY)

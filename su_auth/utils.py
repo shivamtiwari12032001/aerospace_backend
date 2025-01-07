@@ -3,7 +3,7 @@ from django.conf import settings
 import logging
 import jwt
 from datetime import datetime, timedelta
-from decouple import config
+
 
 
 logger = logging.getLogger(__name__)
